@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/bootstrap.css">
+    <link rel="stylesheet" href="./css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap" rel="stylesheet"/>
+    <link rel="shortcut icon" href="https://www.svgrepo.com/show/193541/flag-country.svg" type="image/x-icon">
+
+    <title>Uy ishi 8-dars API Render Country</title>
+</head>
+<!-- Created by Kho'ja Frontend Developer -->
+
+<body class="bg-success">
+    <div class="container">
+        <h1 class="fw-bold text-white pt-5 text-center text-simple"><marquee behavior="" direction="" width="400">Country API App</marquee></h1>
+        <div class="row mx-auto my-auto p-5 bg-white rounded-3 w-75 mt-5">
+            <div class="row col-12 mx-auto">
+                <form class="row mx-auto country__form">
+                    <div class="col-12 col-lg-8"><input class="form-control form-control-lg d-block w-100 mb-3 country__search" type="text" placeholder="Enter your Country"></div>
+                    
+                    <div class="col-12 col-lg-4"><button class="btn btn-lg btn-primary w-100 mb-5 country__btn">Search</button></div>
+                </form>    
+            </div>
+            
+            <div class="country__wrapper">
+                
+            </div>
+        </div>
+        
+    </div>
+    
+    <template class="country__template">
+        <div class="card">
+        <img class="d-block mx-auto mb-3 container-fluid h-auto country__flag" src="./images/Flag_of_Uzbekistan.svg.png" alt="Flags">
+        
+        <h3 class="fw-bold text-center mb-3 country__name">Uzbekistan</h3>
+        
+        <p class="d-flex align-items-center fw-semibold mb-2">Catipal:<span class="d-block opacity-75 mx-2 country__capital"> Tashkent</span></p>
+        
+        <p class="d-flex align-items-center fw-semibold mb-2">Continent:<span class="d-block opacity-75 mx-2 country__continent"> Asia</span></p>
+        
+        <p class="d-flex align-items-center fw-semibold mb-2">Population:<span class="d-block opacity-75 mx-2 country__population"> 330000000</span></p>
+        
+        <p class="d-flex align-items-center fw-semibold mb-2">Currency:<span class="d-block opacity-75 mx-2 country__currency"> So'm</span></p>
+        
+        <p class="d-flex align-items-center fw-semibold mb-2">Common Language:<span class="d-block opacity-75 mx-2 country__language"> Uzbek</span></p>
+    </div>
+    </template>
+    
+    <script src="./js/bootstrap.js"></script>
+    <script src="./js/script.js"></script>
+    
+</body>
+
+</html>
